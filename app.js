@@ -11,53 +11,48 @@ let mur = document.getElementById("mur");
 
 console.log(affiche);
 
+function opacityOne(param){
+    param.style.opacity = "1";
+    param.style.transition = "0.5s";
+}
+
 affiche.addEventListener("click",function(){
-    affiche.style.opacity="1";
-    affiche.style.transition="0.5s";
+    opacityOne(affiche);
 });
 
 barriere.addEventListener("click",function(){
-    barriere.style.opacity="1";
-    barriere.style.transition="0.5s";
+    opacityOne(barriere);
 });
 
 basdegrille.addEventListener("click",function(){
-    basdegrille.style.opacity="1";
-    basdegrille.style.transition="0.5s";
+    opacityOne(basdegrille);
 });
 
 fenetre.addEventListener("click",function(){
-    fenetre.style.opacity="1";
-    fenetre.style.transition="0.5s";
+    opacityOne(fenetre);
 });
 
 graph.addEventListener("click",function(){
-    graph.style.opacity="1";
-    graph.style.transition="0.5s";
+    opacityOne(graph);
 });
 
 lampe.addEventListener("click",function(){
-    lampe.style.opacity="1";
-    lampe.style.transition="0.5s";
+    opacityOne(lampe);
 });
 
 marche.addEventListener("click",function(){
-    marche.style.opacity="1";
-    marche.style.transition="0.5s";
+    opacityOne(marche);
 });
 
 portedegarage.addEventListener("click",function(){
-    portedegarage.style.opacity="1";
-    portedegarage.style.transition="0.5s";
+    opacityOne(portedegarage);
 });
 
 toit.addEventListener("click",function(){
-    toit.style.opacity="1";
-    toit.style.transition="0.5s";
+    opacityOne(toit);
 });
 
 mur.addEventListener("click",function(){
-    mur.style.opacity="1";
-    mur.style.transition="0.5s";
+    opacityOne(mur);
 });
 
