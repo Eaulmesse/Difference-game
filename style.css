@@ -29,6 +29,7 @@ body{
     transform: scale(1.1);
     transition: 500ms;
     border: 5px solid #035096 ;
+    background-color: #181717;
 }
 
 /* BASE */
@@ -36,7 +37,7 @@ body{
 .images{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 
 .base{
@@ -122,4 +123,27 @@ body{
     width: 65.7%;
     margin-left: 17.1%;
     margin-top: 41.3%;
+}
+/* MUR */
+.copie #mur{
+    z-index: 2;
+    position: absolute;
+    width: 10.9%;
+    margin-left: 22.4%;
+}
+/* PORTE DE GARAGE */
+.copie #portedegarage{
+    z-index: 2;
+    position: absolute;
+    width: 4%;
+    margin-left: 58%;
+    margin-top: 16.5%;
+}
+/* TOIT */
+.copie #toit{
+    z-index: 2;
+    position: absolute;
+    width: 8.3%;
+    margin-left: 29.6%;
+    margin-top: 19.1%;
 }
