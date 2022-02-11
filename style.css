@@ -1,0 +1,125 @@
+body{
+    background-color: #121212;
+}
+
+
+/* TITLE */
+#title{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+#desc{
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+.border{
+    border: 5px solid white;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    transition: 500ms;
+}
+.border:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+    border: 5px solid #035096 ;
+}
+
+/* BASE */
+
+.images{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.base{
+    width: 45%;  
+    height: auto;  
+    object-fit: cover;    
+    border: 5px solid black;
+    object-fit: cover;
+    margin-right: 2.5%;
+}
+.base img{
+    width: 100%;
+    height: 100%;
+}
+.copie{
+    width: 45%;  
+    height: auto;  
+    object-fit: cover;    
+    border: 5px solid black;
+    object-fit: cover;
+    margin-left: 2.5%;
+    position: relative;
+}
+.copie #copieimg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+/* AFFICHE */
+.copie #affiche{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    margin-left: 28%;
+    margin-top: 27%;
+}
+/* BARRIERE */
+.copie #barriere{
+    z-index: 2;
+    margin-left: 56%;
+    margin-top: 28.5%;
+    position: absolute;
+    width: 19%;
+}
+/* BAS DE GRILLE */
+.copie #basdegrille{
+    z-index: 2 ;
+    position: absolute;
+    width: 6.5%;
+    margin-left: 74%;
+    margin-top: 46.1%;
+}
+/* FENETRE */
+.copie #fenetre{
+    z-index: 2;
+    position: absolute;
+    width: 4.6%;
+    margin-left: 59.5%;
+}
+/* GRAPH */
+.copie #graph{
+    z-index: 2;
+    position: absolute;
+    width: 4.6%;
+    margin-left: 87%;
+    margin-top: 33.4%;
+}
+/* LAMPE */
+.copie #lampe{
+    z-index: 2;
+    position: absolute;
+    width: 8.3%;
+    margin-left: 38.5%;
+    margin-top: 12.3%;
+}
+/* MARCHE */
+.copie #marche{
+    z-index: 2;
+    position: absolute;
+    width: 65.7%;
+    margin-left: 17.1%;
+    margin-top: 41.3%;
+}
