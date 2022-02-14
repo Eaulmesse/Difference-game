@@ -8,13 +8,25 @@ let marche = document.getElementById("marche");
 let portedegarage = document.getElementById("portedegarage");
 let toit = document.getElementById("toit");
 let mur = document.getElementById("mur");
+let counterVal = 0;
 
-console.log(affiche);
+function updateDisplay(val) {
+    console.log(val);
+    document.getElementById("counter-label").innerHTML = val;
+}
+
+function incrementClick() {
+    console.log("confirm");
+    counterVal++;
+    updateDisplay(counterVal);
+}
 
 function opacityOne(param){
     param.style.opacity = "1";
     param.style.transition = "0.5s";
+    incrementClick();
 }
+
 
 affiche.addEventListener("click",function(){
     opacityOne(affiche);

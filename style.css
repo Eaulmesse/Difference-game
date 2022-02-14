@@ -15,10 +15,11 @@ body{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 100;
     text-align: center;
+    margin-top: -5%;
 }
 .border{
     border: 5px solid white;
-    width: 30%;
+    width: 25%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -32,19 +33,28 @@ body{
     background-color: #181717;
 }
 
+/* COMPTEUR */
+
+.center{
+    text-align: center;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: -15px;
+}
+
 /* BASE */
 
 .images{
     display: flex;
     justify-content: center;
-    margin-top: 3%;
+    /* margin-top: 3%; */
 }
 
 .base{
     width: 45%;  
     height: auto;  
     object-fit: cover;    
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
     object-fit: cover;
     margin-right: 2.5%;
 }
@@ -56,7 +66,7 @@ body{
     width: 45%;  
     height: auto;  
     object-fit: cover;    
-    border: 5px solid black;
+    border: 5px solid rgb(255, 255, 255);
     object-fit: cover;
     margin-left: 2.5%;
     position: relative;
