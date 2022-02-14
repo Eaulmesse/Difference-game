@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeu des différences</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/iconmonstr-binoculars-8.svg">            
 </head>
 <body>
     <div class="border">
@@ -16,6 +17,16 @@
     <h3 class="center">Vos points</h3>
     <div>
         <h3 class="center" id="counter-label">0</h3>
+    <div class="center button">
+        <button onclick="reveal()">Soluce</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="slot">
+            
+        </div>
     </div>
 
 
@@ -39,6 +50,7 @@
             </div>
         </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 <script src="./app.js"></script>
 </body>
 </html>
