@@ -1,14 +1,3 @@
-let affiche = document.getElementById("affiche");
-let barriere = document.getElementById("barriere");
-let basdegrille = document.getElementById("basdegrille");
-let fenetre = document.getElementById("fenetre");
-let graph = document.getElementById("graph");
-let lampe = document.getElementById("lampe");
-let marche = document.getElementById("marche");
-let portedegarage = document.getElementById("portedegarage");
-let toit = document.getElementById("toit");
-let mur = document.getElementById("mur");
-
 let boulon = document.getElementById("boulon");
 let cable = document.getElementById("cable");
 let coupelle = document.getElementById("coupelle");
@@ -19,7 +8,8 @@ let piecemetal = document.getElementById("piecemetal");
 let plumage = document.getElementById("plumage");
 let tige = document.getElementById("tige");
 
-let soluce = [affiche, barriere , basdegrille, fenetre, graph, lampe, marche, portedegarage, toit, mur];
+
+let soluce = [boulon, cable , coupelle, marron, metal, metal2, nez, piecemetal, plumage, tige];
 let counterVal = 0;
 let containerSlot = document.querySelector(".slot")
 let emojis = ["💪","👌🏻","🏆","🎯"];
@@ -85,48 +75,6 @@ function opacityOne(param){
     incrementClick();
     fiesta();
 }
-
-affiche.addEventListener("click", function(){
-    opacityOne(affiche);
-}, {once : true});
-
-barriere.addEventListener("click",function(){
-    opacityOne(barriere);
-}, {once : true});
-
-basdegrille.addEventListener("click",function(){
-    opacityOne(basdegrille);
-}, {once : true});
-
-fenetre.addEventListener("click",function(){
-    opacityOne(fenetre);
-}, {once : true});
-
-graph.addEventListener("click",function(){
-    opacityOne(graph);
-}, {once : true});
-
-lampe.addEventListener("click",function(){
-    opacityOne(lampe);
-}, {once : true});
-
-marche.addEventListener("click",function(){
-    opacityOne(marche);
-}, {once : true});
-
-portedegarage.addEventListener("click",function(){
-    opacityOne(portedegarage);
-}, {once : true});
-
-toit.addEventListener("click",function(){
-    opacityOne(toit);
-}, {once : true});
-
-mur.addEventListener("click",function(){
-    opacityOne(mur);
-}, {once : true});
-
-// NIV2
 
 boulon.addEventListener("click", function(){
     opacityOne(boulon);

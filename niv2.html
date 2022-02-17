@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu des différences</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/iconmonstr-binoculars-8.svg">   
+    <meta name="description" content="Bienvenue dans le jeu des Differences ! Essayez de trouver les erreurs en comparant deux images, chaques images possèdent 10 erreurs !">         
+</head>
+<body>
+    <div class="border">
+        <h1 id="title">Difference game !</h1>
+        <p id="desc"> Cliquez sur les erreurs présente sur l'image de droite ! Il y en a 10.</p>
+    </div>
+
+    <h3 class="center">Vos points</h3>
+    <div>
+        <h3 class="center" id="counter-label">0</h3>
+    <div class="center button">
+        <button onclick="reveal()">Soluce</button>
+        <!-- <button onclick="window.location.href='LINK">Niveau 1</button> -->
+        <button onclick="reset()">Reset</button>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="slot">
+            
+        </div>
+    </div>
+
+
+    <section class="images">
+        <div class="base">
+            <img src="./img/img2/owl.jpg" alt="">
+        </div>
+        <div class="copie">
+            <img id="copieimg" src="./img/img2/owlcopie.jpg" alt="">
+            <div class="elements">
+                <img id="boulon" src="./img/img2/boulon.png" alt="">
+                <img src="./img/img2/cable.png" alt="" id="cable">
+                <img src="./img/img2/coupelle.png" alt="" id="coupelle">
+                <img src="./img/img2/marron.png" alt="" id="marron">
+                <img src="./img/img2/metal.png" alt="" id="metal">
+                <img src="./img/img2/metal2.png" alt="" id="metal2">
+                <img src="./img/img2/nez.png" alt="" id="nez">
+                <img src="./img/img2/piecemetal.png" alt="" id="piecemetal">
+                <img src="./img/img2/plumage.png" alt="" id="plumage">
+                <img src="./img/img2/tige.png" alt="" id="tige">
+            </div> -->
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="./niv2.js"></script>
+</body>
+</html>
